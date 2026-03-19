@@ -776,7 +776,7 @@ export function Today() {
         setLoading(true);
         setError(null);
         setData(null);
-        const url = `https://api.allorigins.win/raw?url=https://www.nytimes.com/svc/wordle/v2/${formatDate(date)}.json`;
+        const url = `https://cors-anywhere.com/https://www.nytimes.com/svc/wordle/v2/${formatDate(date)}.json`;
         fetch(url)
             .then(async (res) => {
                 if (!res.ok) {
