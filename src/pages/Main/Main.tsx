@@ -842,9 +842,9 @@ export function Today() {
                                     <strong>{error}.</strong>
                                     <br></br> <strong>It looks like you may have clicked a button too many times, or the server might be temporarily unavailable.</strong>
                                     <br></br>
-                                    <br></br> Please avoid abusing this service. We rely on the free and generous API provided by{' '}
-                                    <a className="underline" href="https://github.com/gnuns/allorigins">
-                                        gnuns' AllOrigins
+                                    <br></br> Please avoid abusing this service. We rely on the free and generous API provided by the 
+                                    <a className="underline" href="https://github.com/Rob--W/cors-anywhere">
+                                        CORS Anywhere - Community-Hosted Instance
                                     </a>
                                     , which is available for everyone to use. Excessive or abusive use can lead to rate limits or even getting blocked — so please don't push the limits. You also might
                                     have gotten this error on load or after one button click. That is normal. Just bare with me👍<br></br>
@@ -973,8 +973,8 @@ function Footer() {
                                 </Link>
                             </li>
                             <li>
-                                <Link to="https://github.com/gnuns/allorigins" className="text-muted-foreground hover:text-foreground text-xs md:text-sm" target="_blank" rel="noopener noreferrer">
-                                    AllOrigins API
+                                <Link to="https://www.cors-anywhere.com" className="text-muted-foreground hover:text-foreground text-xs md:text-sm" target="_blank" rel="noopener noreferrer">
+                                    CORS Anywhere - Community-Hosted Instance
                                 </Link>
                             </li>
                             <li>
