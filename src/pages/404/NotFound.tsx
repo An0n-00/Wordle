@@ -16,7 +16,7 @@ export default function NotFound() {
                         </Link>
                     </Button>
                     <Button size="lg" variant={'ghost'} asChild>
-                        <Link to="https://github.com/An0n-00/IT-Ticket/issues" target={'_blank'} className="mt-4">
+                        <Link to="https://github.com/An0n-00/Wordle/issues" target={'_blank'} className="mt-4">
                             Report an issue
                             <Bug />
                         </Link>
