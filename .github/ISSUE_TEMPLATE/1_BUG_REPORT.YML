@@ -1,0 +1,8 @@
+name: Bug Report
+description: Report a bug or issue with the Wordle CORS proxy server
+body:
+    - type: markdown
+      attributes:
+          value: |
+    - type: checkboxes
+      attributes:

@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+    - name: GitHub Issues
+      url: https://github.com/An0n-00/Wordle/issues
+      about: For support, questions, or help, visit the GitHub issue tracker.
